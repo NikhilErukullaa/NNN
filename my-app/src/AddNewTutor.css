@@ -1,0 +1,73 @@
+.header1 {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .add-tutor-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .register-card {
+    width: 400px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: #fff;
+  }
+  
+  .heading {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .form-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  
+  .form-group {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  .custom-newtutor {
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .custom-newtutor-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .custom-button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .custom-button:hover {
+    background-color: #45a049;
+  }
+  
+  .custom-gender-category {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .custom-error-message {
+    color: red;
+    font-size: 12px;
+  }
+  

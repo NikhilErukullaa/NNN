@@ -1,0 +1,67 @@
+/* LandingPage.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0; /* Set a background color as per your preference */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .image-container {
+    gap: 40px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .image-link {
+    text-decoration: none;
+  }
+  
+  .image {
+    width: 100%;/* Make images full-size */
+    border: 5px solid #ccc; /* Add border */
+    border-radius: 10px; /* Optional: Add border radius for a rounded look */
+    transition: transform 0.2s ease-in-out; /* Add transition effect */
+  }
+  
+  .image:hover {
+    transform: scale(1.1); /* Increase size on hover */
+  }
+  
+  /* .image-title {
+    margin-top: 10px;
+    font-size: 1.2em;
+  }
+  LandingPage.css */
+
+.image-title {
+    text-align: center;
+    font-size: 28px;
+    margin-top: 10px;
+    color: #333; /* You can adjust the color as needed */
+    
+  }
+  
+  /* Optional: Add hover effect on the images */
+  .image-link:hover .image {
+    opacity: 0.8;
+  }
+  
+  .image-link:hover .image-title {
+    color:blue; /* Change to the desired hover color */
+  }
+  
+  
